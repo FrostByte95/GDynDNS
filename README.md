@@ -2,6 +2,7 @@
 Small API to update Google Domains Dynamic DNS settings using Google Dynamic DNS API
 #Dependencies
 org.apache.httpcomponents:httpclient:4.5.9
+
 org.apache.httpcomponents:fluent-hc:4.5.9
 
 # Methods
@@ -15,7 +16,7 @@ org.apache.httpcomponents:fluent-hc:4.5.9
 > java.io.IOException - Request failed.
 
 ## updateGoogleDNS
-### public static java.lang.String updateGoogleDNS(java.lang.String username, java.lang.String password, java.lang.String hostname, java.lang.String myip, boolean offline)
+### public static String updateGoogleDNS(String username, String password, String hostname, String myip, boolean offline)
                                   
 ### Parameters:
 > username - The generated username associated with the host that is to be updated.

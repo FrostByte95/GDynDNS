@@ -1,6 +1,7 @@
 # GDynDNS
 Small API to update Google Domains Dynamic DNS settings using Google Dynamic DNS API
-#Dependencies
+
+# Dependencies
 org.apache.httpcomponents:httpclient:4.5.9
 
 org.apache.httpcomponents:fluent-hc:4.5.9

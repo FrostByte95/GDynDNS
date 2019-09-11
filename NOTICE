@@ -13,7 +13,7 @@
    limitations under the License.
 *********************************************************************************
 
-Apache HttpComponents Client library was used to send the requests
+Apache HttpComponents Client library was used to send GET and POST requests
 *********************************************************************************
 Apache HttpComponents Client
 Copyright 1999-2019 The Apache Software Foundation

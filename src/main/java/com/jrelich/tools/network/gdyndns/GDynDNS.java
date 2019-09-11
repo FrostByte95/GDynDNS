@@ -30,12 +30,6 @@ public final class GDynDNS {
 
 	}
 
-	/*
-	*TODO:
-	* - build url
-	* - send post request and retrieve response
-	 */
-
 	/**
 	 *
 	 * @param username The generated username associated with the host that is to be updated.
@@ -49,7 +43,7 @@ public final class GDynDNS {
 	public static String updateGoogleDNS(String username, String password, String hostname, String myip, boolean offline) throws IOException{
 		StringBuilder URL = new StringBuilder("https://" + username + ":" + password + "@domains.google.com/nic/update?");
 		URL.append("hostname=" + hostname);
-		if (myip != null){
+		if (!myip.isEmpty()){
 			URL.append("&myip=" + myip);
 		}
 		if (offline == true){

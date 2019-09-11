@@ -60,7 +60,7 @@ public final class GDynDNS {
 	}
 
 	public static String updateGoogleDNS(String username, String password, String hostname) throws IOException{
-		return updateGoogleDNS(username, password, hostname, null, false);
+		return updateGoogleDNS(username, password, hostname, "", false);
 	}
 
 }
